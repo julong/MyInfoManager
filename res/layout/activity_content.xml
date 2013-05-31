@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/content_name"
+            android:layout_width="0dip"
+            android:layout_height="40dip"
+            android:layout_margin="1dip"
+            android:layout_weight="2"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="@string/content_name"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/content_value"
+            android:layout_width="0dip"
+            android:layout_height="40dip"
+            android:layout_margin="1dip"
+            android:layout_weight="3"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="@string/content_value"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/motify_btn"
+            android:layout_width="0dip"
+            android:layout_height="60dip"
+            android:layout_margin="1dip"
+            android:layout_weight="2"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="@string/motifypwd_txt"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/add_content_btn"
+            android:layout_width="0dip"
+            android:layout_height="60dip"
+            android:layout_margin="1dip"
+            android:layout_weight="3"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="@string/add_content"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/content_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/layout2"
+        android:layout_below="@id/layout1" >
+    </ListView>
+
+</RelativeLayout>

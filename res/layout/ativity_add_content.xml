@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:padding="15dip"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:hint="@string/content_name" />
+
+    <EditText
+        android:id="@+id/value"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:hint="@string/content_value" />
+
+    <Button
+        android:id="@+id/commit"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_margin="1dip"
+        android:layout_marginTop="50dip"
+        android:background="@color/dark_blue"
+        android:text="@string/commit" />
+
+</LinearLayout>

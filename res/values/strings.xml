@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MYFILE</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="login_txt">登录</string>
+    <string name="motifypwd_txt">修改密码</string>
+    <string name="pwdtip">请输入密码&#8230;</string>
+    <string name="originaltip">请输入原始密码&#8230;</string>
+    <string name="newtip">请输入新的密码&#8230;</string>
+    <string name="content_name">名称:</string>
+    <string name="content_value">内容:</string>
+    <string name="content_other">其他:</string>
+    <string name="content_remark">备注:</string>
+    <string name="add_content">添加内容</string>
+    <string name="content_detail">记录详情</string>
+    <string name="back">返回</string>
+    <string name="delete">删除</string>
+    <string name="commit">确定</string>
+
+</resources>
